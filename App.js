@@ -69,8 +69,9 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <View
-        style={[styles.container, { backgroundColor: this.state.background }]}
+      <Gradient
+        gradient={this.state.background}
+        style={styles.container}
       >
         <Svg width={width} height={height / 3} viewBox="0 0 166 166">
           <G>
@@ -91,7 +92,7 @@ export default class App extends React.Component {
             </TouchableOpacity>
           ))}
         </View>
-      </View>
+      </Gradient>
     );
   }
 }
