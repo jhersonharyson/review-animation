@@ -1,17 +1,10 @@
-import React from "react";
-import {
-  StyleSheet,
-  Text,
-  View,
-  Dimensions,
-  TouchableOpacity
-} from "react-native";
-import Gradient from "react-native-css-gradient";
-import { interpolate } from "flubber";
-import { tween, easing } from "popmotion";
-import * as SVG from "react-native-svg";
 import { AntDesign } from "@expo/vector-icons";
-import { rgba } from "style-value-types";
+import { interpolate } from "flubber";
+import { easing, tween } from "popmotion";
+import React from "react";
+import { Dimensions, StyleSheet, TouchableOpacity, View } from "react-native";
+import Gradient from "react-native-css-gradient";
+import * as SVG from "react-native-svg";
 
 const { width, height } = Dimensions.get("screen");
 const { Path, G, Svg } = SVG;
