@@ -10,3 +10,4 @@ for(let i = 0; i < x.length; i++)output[types[i]] = x[i].getAttribute('d')
 ```
 
 yarn add react-native-css-gradient popmotion flubber @expo/vector-icons
+expo install react-native-svg
